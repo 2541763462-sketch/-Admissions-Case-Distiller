@@ -1,0 +1,104 @@
+{
+  "user_agent": "AdmissionsCaseDistiller/0.1 (+estella.wu1210@outlook.com)",
+  "output_jsonl": "cases.jsonl",
+  "max_pages_per_source": 30,
+  "request_delay_seconds": 5,
+  "sources": [
+    {
+      "name": "指南者留学",
+      "entry_urls": [
+        "https://m.compassedu.hk/offer/0/1"
+      ],
+      "include_url_keywords": [
+        "offer",
+        "compassedu",
+        "录取",
+        "案例",
+        "案例库",
+        "硕士"
+      ],
+      "exclude_url_keywords": [
+        "login",
+        "signin",
+        "member",
+        "pay",
+        "course",
+        "register",
+        "consult",
+        "evaluate"
+      ]
+    },
+    {
+      "name": "新东方前途出国",
+      "entry_urls": [
+        "https://liuxue.xdf.cn/case/index.shtml"
+      ],
+      "include_url_keywords": [
+        "case",
+        "xdf",
+        "liuxue",
+        "录取",
+        "案例",
+        "申请"
+      ],
+      "exclude_url_keywords": [
+        "login",
+        "signin",
+        "member",
+        "pay",
+        "course",
+        "register",
+        "zhuanti",
+        "huodong"
+      ]
+    },
+    {
+      "name": "启德教育",
+      "entry_urls": [
+        "https://www.eic.org.cn/case"
+      ],
+      "include_url_keywords": [
+        "case",
+        "eic",
+        "录取",
+        "案例",
+        "成功案例",
+        "硕士"
+      ],
+      "exclude_url_keywords": [
+        "login",
+        "signin",
+        "member",
+        "pay",
+        "course",
+        "register",
+        "activity",
+        "product"
+      ]
+    },
+    {
+      "name": "金吉列留学",
+      "entry_urls": [
+        "https://www.jjl.cn/case"
+      ],
+      "include_url_keywords": [
+        "case",
+        "jjl",
+        "录取",
+        "案例",
+        "留学案例",
+        "硕士"
+      ],
+      "exclude_url_keywords": [
+        "login",
+        "signin",
+        "member",
+        "pay",
+        "course",
+        "register",
+        "user",
+        "consult"
+      ]
+    }
+  ]
+}

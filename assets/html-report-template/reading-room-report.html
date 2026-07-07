@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>北京林业大学英语专业港新硕士申请定位报告</title>
+  <style>
+    :root {
+      --paper: #f6ebd8;
+      --ink: #0b0a09;
+      --muted: #6b6258;
+      --lilac: #d6c7cc;
+      --terracotta: #de916a;
+      --butter: #f1dab1;
+      --cream: #fff8ed;
+      --line: 2px solid var(--ink);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+    .page {
+      max-width: 1180px;
+      margin: 28px auto;
+      padding: 28px;
+      border: var(--line);
+      background: var(--paper);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 24px;
+    }
+
+    .hero-main {
+      border: var(--line);
+      background: var(--cream);
+      padding: 30px;
+      min-height: 310px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(38px, 6vw, 74px);
+      line-height: 0.95;
+      letter-spacing: 0;
+      font-weight: 900;
+    }
+
+    .subtitle {
+      margin: 24px 0 0;
+      max-width: 760px;
+      font-size: 18px;
+    }
+
+    .hero-side {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .note {
+      border: var(--line);
+      padding: 22px;
+      background: var(--butter);
+    }
+
+    .note:nth-child(2) { background: var(--lilac); }
+
+    .note h2, .section h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .note p { margin: 0; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 22px;
+      margin-top: 22px;
+    }
+
+    .section {
+      grid-column: span 12;
+      border: var(--line);
+      background: var(--cream);
+      padding: 24px;
+    }
+
+    .half { grid-column: span 6; }
+    .third { grid-column: span 4; }
+    .accent { background: var(--butter); }
+    .accent-2 { background: var(--lilac); }
+    .accent-3 { background: var(--terracotta); }
+
+    .profile {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: var(--line);
+      border-left: var(--line);
+      margin-top: 16px;
+    }
+
+    .profile div {
+      min-height: 90px;
+      border-right: var(--line);
+      border-bottom: var(--line);
+      padding: 14px;
+      background: rgba(255, 248, 237, 0.78);
+    }
+
+    .profile strong {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 4px 9px;
+      border: var(--line);
+      background: var(--paper);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .evidence { background: var(--lilac); }
+    .warning { background: var(--terracotta); }
+
+    .strategy-list {
+      display: grid;
+      gap: 14px;
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .strategy-list li {
+      border: var(--line);
+      background: rgba(255, 248, 237, 0.72);
+      padding: 14px;
+    }
+
+    .tier-table, .case-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+      background: rgba(255, 248, 237, 0.72);
+    }
+
+    th, td {
+      border: var(--line);
+      padding: 12px;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th {
+      background: var(--butter);
+      font-size: 14px;
+    }
+
+    .case-table th:nth-child(1), .case-table td:nth-child(1) { width: 88px; }
+    .case-table th:nth-child(2), .case-table td:nth-child(2) { width: 220px; }
+
+    .quote-line {
+      border-left: 10px solid var(--terracotta);
+      padding: 12px 16px;
+      margin: 16px 0 0;
+      background: var(--paper);
+      font-weight: 700;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .timeline div {
+      border: var(--line);
+      background: var(--paper);
+      padding: 14px;
+      min-height: 136px;
+    }
+
+    .sources {
+      columns: 2;
+      column-gap: 28px;
+      padding-left: 18px;
+    }
+
+    .sources li {
+      break-inside: avoid;
+      margin-bottom: 8px;
+    }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .chart-card {
+      border: var(--line);
+      background: rgba(255, 248, 237, 0.72);
+      padding: 16px;
+      min-height: 260px;
+    }
+
+    .chart-card h3 {
+      margin: 0 0 14px;
+      font-size: 18px;
+      line-height: 1.25;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 128px 1fr 44px;
+      align-items: center;
+      gap: 10px;
+      margin: 12px 0;
+      font-size: 14px;
+    }
+
+    .bar-track {
+      height: 20px;
+      border: var(--line);
+      background: var(--paper);
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background: var(--terracotta);
+      border-right: var(--line);
+    }
+
+    .bar-fill.soft {
+      background: var(--lilac);
+    }
+
+    .bar-fill.warm {
+      background: var(--butter);
+    }
+
+    .matrix {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .matrix div {
+      border: var(--line);
+      min-height: 92px;
+      padding: 10px;
+      background: var(--paper);
+      font-size: 14px;
+    }
+
+    .matrix strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    .pathway {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .pathway div {
+      position: relative;
+      border: var(--line);
+      background: var(--butter);
+      min-height: 108px;
+      padding: 12px;
+      font-weight: 700;
+    }
+
+    .pathway div:nth-child(2),
+    .pathway div:nth-child(4) {
+      background: var(--lilac);
+    }
+
+    .pathway div:nth-child(3) {
+      background: var(--terracotta);
+    }
+
+    .pathway span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      .page { margin: 0; padding: 14px; border-left: 0; border-right: 0; }
+      .hero, .hero-side, .grid, .timeline { grid-template-columns: 1fr; }
+      .half, .third { grid-column: span 12; }
+      .profile { grid-template-columns: 1fr 1fr; }
+      .chart-grid, .pathway { grid-template-columns: 1fr; }
+      .bar-row { grid-template-columns: 96px 1fr 38px; }
+      .sources { columns: 1; }
+      .case-table { display: block; overflow-x: auto; white-space: normal; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .page { margin: 0; max-width: none; border: 0; }
+      a { text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-main">
+        <div>
+          <p class="eyebrow">Admissions Case Distiller · Reading Room Report</p>
+          <h1>北林英语<br>港三新二申请定位</h1>
+        </div>
+        <p class="subtitle">基于公开机构案例、官方项目要求与申请者真实背景，对香港/新加坡语言、文化与市场方向进行证据化定位。2027 申请季仍需在递交前复核最新学费、语言要求和截止日期。</p>
+      </div>
+      <div class="hero-side">
+        <div class="note">
+          <h2>核心结论</h2>
+          <p>北京林业大学 211 + GPA 4.5/5 是强学术信号；阳狮、新华社、元气森林构成“公共传播-品牌传播-消费者市场”的清晰主线。主要短板仍是 IELTS 6.5。</p>
+        </div>
+        <div class="note">
+          <h2>策略优先级</h2>
+          <p>港三新二可以冲，但应以香港语言/文化/传播为主，新加坡和纯商学院市场类少量冲刺。预算与排名要求存在天然张力。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>1. 背景定位与核心判断</h2>
+      <p>证据类型：公开机构案例、官方语言/学费要求、用户背景事实、基于证据的推断。</p>
+      <div class="profile">
+        <div><strong>院校层级</strong>北京林业大学，211</div>
+        <div><strong>专业</strong>英语，适配语言、文化、传播、TESOL</div>
+        <div><strong>成绩</strong>GPA 4.5/5，约 90 分段，强于多数相似案例</div>
+        <div><strong>语言</strong>IELTS 6.5，港三语言类偏弱</div>
+        <div><strong>实习</strong>阳狮 AE、新华社记者、元气森林 MKT</div>
+        <div><strong>竞赛</strong>大创北京市三等奖、正大杯省一</div>
+        <div><strong>目标地区</strong>香港、新加坡；偏港三新二</div>
+        <div><strong>目标方向</strong>语言类、文化类、市场类</div>
+      </div>
+      <div class="badge-row">
+        <span class="badge evidence">公开案例：北林商务英语 GPA78.13 + IELTS6.5 → HKBU 翻译</span>
+        <span class="badge evidence">公开案例：北林商务英语 GPA78.13 + IELTS6.5 → PolyU 翻译与语言技术</span>
+        <span class="badge evidence">公开案例：北林商务英语 GPA3.43 + IELTS7 → 爱丁堡东亚研究</span>
+        <span class="badge warning">官方要求：CUHK AEL / PolyU MAESP 指向 IELTS 7 级别</span>
+      </div>
+      <p class="quote-line">定位：不是“能不能申港三新二”，而是“港三新二里哪些项目能被语言、文化、传播和市场证据合理支撑”。</p>
+    </section>
+
+    <div class="grid">
+      <section class="section half accent">
+        <h2>2. 地区与专业策略</h2>
+        <ul class="strategy-list">
+          <li><strong>香港优先。</strong>公开案例里北林商务英语已出现 HKBU 翻译、PolyU 翻译与语言技术等录取；港校语言/文化/传播项目对你的背景承接更自然。</li>
+          <li><strong>新加坡少量冲刺。</strong>NUS/NTU 市场类费用高且偏商业/数据方法；若不补 market research portfolio 和数据分析证据，建议控制数量。</li>
+          <li><strong>方向排序。</strong>文化传播/IMC/专业英语 &gt; 应用语言/TESOL &gt; 文化研究/东亚研究 &gt; Marketing/Brand &gt; Marketing Analytics。</li>
+        </ul>
+      </section>
+
+      <section class="section half accent-2">
+        <h2>证据化判断</h2>
+        <ul class="strategy-list">
+          <li><strong>语言类：</strong>北林商务英语低于你当前 GPA 的案例已拿 HKBU/PolyU 语言翻译方向，说明你申港校中上语言类有案例支撑。</li>
+          <li><strong>港三：</strong>HKU/CUHK/HKUST 语言和文化方向仍要看 IELTS、小分和项目匹配，6.5 对冲刺不够漂亮。</li>
+          <li><strong>市场类：</strong>HKU Global Management 有北林案例，但该案例为风景园林 + 两年工作经验 + IELTS7，不等同于英语本科直申商学院市场。</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="section">
+      <h2>3. 项目分层与申请组合</h2>
+      <table class="tier-table">
+        <thead>
+          <tr>
+            <th>层级</th>
+            <th>项目类型</th>
+            <th>证据基础</th>
+            <th>行动建议</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>冲刺</strong></td>
+            <td>HKU Applied Linguistics / Literary & Cultural Studies；CUHK AEL / Cultural Management；HKUST TESL；NUS/NTU 市场或文化相邻项目</td>
+            <td>官方要求和相似案例均显示：语言分数、作品/研究匹配和职业叙事很关键；新加坡费用更高。</td>
+            <td>IELTS 到 7.0 后再重点冲港三语言/文化；市场类需补消费者研究与数据作品。</td>
+          </tr>
+          <tr>
+            <td><strong>主申</strong></td>
+            <td>PolyU MAESP / Translation & Language Technology；CityU Language Studies / Communication；HKBU Translation / Communication / Media Management</td>
+            <td>指南者北林商务英语低 GPA + IELTS6.5 已有 HKBU、PolyU 语言方向案例；你的 GPA 和实习更强。</td>
+            <td>这些是当前证据最稳的主申层。用新华社/阳狮/元气森林做传播和市场化叙事。</td>
+          </tr>
+          <tr>
+            <td><strong>稳妥</strong></td>
+            <td>Lingnan / EdUHK / HKBU 语言教育、文化研究、传播管理；香港非港三语言文化项目</td>
+            <td>公开案例不足以支撑“港三新二全稳”，需要用稳妥项目分散风险。</td>
+            <td>保留 2-3 个。若预算不想太高，稳妥层应优先香港而非新加坡商科。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section accent-3">
+      <h2>4. 提升方案与文书主线</h2>
+      <div class="grid">
+        <div class="third">
+          <h2>IELTS</h2>
+          <p>目标 7.0，小分 6.5+；若冲 HKUST TESL、HKU/CUHK 语言文化方向，7.5 会更有竞争力。</p>
+        </div>
+        <div class="third">
+          <h2>作品集</h2>
+          <p>准备英文 communication / market culture portfolio：品牌传播策划、消费者调研、文化内容分析、media writing sample。</p>
+        </div>
+        <div class="third">
+          <h2>项目选择</h2>
+          <p>不要把“港三新二”理解为所有项目都可主申。语言文化类可冲，市场类尤其新二应谨慎。</p>
+        </div>
+      </div>
+      <p class="quote-line">母线：English Major → Xinhua Public Communication → Publicis Brand Campaign → Genki Forest Consumer Market。</p>
+      <table class="tier-table">
+        <thead>
+          <tr>
+            <th>申请方向</th>
+            <th>故事线框架</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>语言 / 专业英语</td>
+            <td>英语训练 → 新华社公共表达 → 阳狮客户沟通 → 元气森林消费者反馈 → 研究 professional communication / workplace English。</td>
+          </tr>
+          <tr>
+            <td>文化 / 传播</td>
+            <td>语言与文本能力 → 新闻叙事和公共议题 → 品牌传播机制 → 新消费品牌的文化表达 → 研究文化传播、媒体与公众接受。</td>
+          </tr>
+          <tr>
+            <td>市场 / 品牌</td>
+            <td>语言与受众意识 → 公共传播训练 → 广告 campaign 执行 → 快消市场场景 → 正大杯市场调研 → 研究 consumer insight 和 brand strategy。</td>
+          </tr>
+          <tr>
+            <td>Marketing Analytics</td>
+            <td>低置信度冲刺线。需要补 SQL/Python/Excel、问卷分析、社媒数据复盘或市场测量作品后再作为正式主线。</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="timeline">
+        <div><strong>现在-2026 下半年</strong><br>刷 IELTS；整理新华社/阳狮/元气森林成果。</div>
+        <div><strong>2026 暑期</strong><br>完成 portfolio、英文 writing sample、CV 和 PS 素材库。</div>
+        <div><strong>2026 秋季</strong><br>港校第一轮优先；新加坡只投高匹配且预算可接受项目。</div>
+        <div><strong>2027 入学前</strong><br>复核学费、语言小分、截止日期、就业和签证路径。</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>5. 相似背景申请参考与资料来源</h2>
+      <table class="case-table">
+        <thead>
+          <tr>
+            <th>来源</th>
+            <th>相似案例</th>
+            <th>背景信号</th>
+            <th>录取结果</th>
+            <th>对你的参考</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>指南者</td>
+            <td><a href="https://m.compassedu.hk/newst/52274">北京林业大学商务英语，GPA78.13，IELTS6.5</a></td>
+            <td>同校英语相邻专业，GPA 低于你，语言相同</td>
+            <td>HKBU Translation and Bilingual Communication</td>
+            <td>强参考。说明北林英语相邻背景 + IELTS6.5 已有 HKBU 语言翻译方向案例。你的 GPA 和实习明显更强，HKBU/PolyU/CityU 语言传播方向应作为主申层，而不是保底。</td>
+          </tr>
+          <tr>
+            <td>指南者</td>
+            <td><a href="https://m.compassedu.hk/newst/51405">北京林业大学商务英语，GPA78.13，IELTS6.5</a></td>
+            <td>同校英语相邻专业，语言技术方向</td>
+            <td>PolyU Translation and Language Technology</td>
+            <td>强参考。PolyU 语言技术/专业英语方向能承接英语背景。你的阳狮/新华社/元气森林可把方向从翻译扩展到专业传播、语言技术与商业沟通。</td>
+          </tr>
+          <tr>
+            <td>指南者</td>
+            <td><a href="https://m.compassedu.hk/majr/51950">北京林业大学商务英语，GPA3.43，IELTS7</a></td>
+            <td>同校英语相邻，文化区域研究方向</td>
+            <td>University of Edinburgh East Asian Studies</td>
+            <td>文化类参考。说明北林商务英语可进入英国高排名人文区域研究项目。你目标为港新，但该案例支持“英语 + 文化/区域研究”路线；若申 HKU/CUHK 文化类，IELTS 7 更有说服力。</td>
+          </tr>
+          <tr>
+            <td>指南者</td>
+            <td><a href="https://m.compassedu.hk/newst/34215">北京林业大学风景园林，GPA83.17，IELTS7，两年工作经验</a></td>
+            <td>同校，市场/管理相邻方向，但非英语专业</td>
+            <td>HKU Global Management</td>
+            <td>弱到中等参考。说明北林背景可触达 HKU 管理类，但该案例有两年工作经验且 IELTS7，不能直接证明你英语本科直申港三市场类稳。可作为“品牌/管理方向能冲”的辅助信号。</td>
+          </tr>
+          <tr>
+            <td>指南者</td>
+            <td><a href="https://m.compassedu.hk/newst/33796">北京林业大学商务英语，GPA3.43，IELTS7</a></td>
+            <td>同校商务英语，文化研究</td>
+            <td>爱丁堡大学 East Asian Studies</td>
+            <td>同上文化类信号。若你申请文化类，不要只讲语言能力，要讲新华社公共议题、文化叙事和品牌文化传播。</td>
+          </tr>
+          <tr>
+            <td>新东方</td>
+            <td><a href="https://liuxue.xdf.cn/blog/zhengyu11/case/5108560.shtml">英语专业，GPA86，IELTS7</a></td>
+            <td>英语专业，GPA 与你低一些，语言更高，教育/语言方向</td>
+            <td>CUHK Education，CityU Language Studies / English Studies</td>
+            <td>语言/教育类参考。新东方顾问基于课程分布建议语言学相关和教育大类，说明英语专业申 CityU 语言/英语类是合理路径；CUHK 层级建议 IELTS7。</td>
+          </tr>
+          <tr>
+            <td>启德</td>
+            <td><a href="https://www.eic.org.cn/case/detail/3196db9d0e794b3c9039960091630841">上海大学新闻学，GPA3.7/4，IELTS7，3段实习</a></td>
+            <td>211，传播相关，IELTS7，实习强</td>
+            <td>CityU MA Integrated Marketing Communication</td>
+            <td>传播/市场线参考。你的新华社 + 阳狮 + 元气森林比普通传媒实习更像“公共传播 + 品牌传播 + 消费者市场”组合；若 IELTS 到 7，CityU IMC/传播项目值得重点主申。</td>
+          </tr>
+          <tr>
+            <td>启德</td>
+            <td><a href="https://www.eic.org.cn/case/detail/a5edca194d4f40b9ac1091791b254e2e">广东外语外贸 English Language and Culture，IELTS7.5</a></td>
+            <td>英语相关专业，高雅思</td>
+            <td>HKUST MA International Language Education - TESL</td>
+            <td>港三语言教育冲刺参考。说明英语相关背景可冲 HKUST TESL，但 7.5 是强信号；你目前 6.5 不足以支撑强判断。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>官方项目与案例资料</h2>
+      <ul class="sources">
+        <li><a href="https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-applied-english-linguistics">CUHK MA English Applied English Linguistics</a></li>
+        <li><a href="https://linguistics.hku.hk/degree-programs/graduate/masters-programme-ma/admissions/tuition-fees/">HKU MA Applied Linguistics Tuition</a></li>
+        <li><a href="https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-liberal-arts-and-social-sciences/department-of-media-and-communication/p39">CityU MA Integrated Marketing Communication</a></li>
+        <li><a href="https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-liberal-arts-and-social-sciences/department-of-linguistics-and-translation/p30">CityU MA Language Studies</a></li>
+        <li><a href="https://www.polyu.edu.hk/engl/study/taught-postgraduate-programme/master-of-arts-in-english-studies-for-the-professions-2627/entrance-requirements/">PolyU MA English Studies for the Professions</a></li>
+        <li><a href="https://www.ntu.edu.sg/business/admissions/graduate-studies/msc-marketing-science/admissions">NTU MSc Marketing Science</a></li>
+        <li><a href="https://mscmarketing.nus.edu.sg/admissions/application-process/">NUS MSc Marketing Analytics &amp; Insights</a></li>
+        <li><a href="https://m.compassedu.hk/newst/52274">指南者北林 HKBU 翻译案例</a></li>
+        <li><a href="https://m.compassedu.hk/newst/51405">指南者北林 PolyU 翻译与语言技术案例</a></li>
+        <li><a href="https://m.compassedu.hk/majr/51950">指南者北林爱丁堡东亚研究案例</a></li>
+        <li><a href="https://m.compassedu.hk/newst/34215">指南者北林 HKU 环球管理案例</a></li>
+        <li><a href="https://liuxue.xdf.cn/blog/zhengyu11/case/5108560.shtml">新东方英语专业港校案例</a></li>
+        <li><a href="https://www.eic.org.cn/case/detail/3196db9d0e794b3c9039960091630841">启德上海大学 CityU IMC 案例</a></li>
+        <li><a href="https://www.eic.org.cn/case/detail/a5edca194d4f40b9ac1091791b254e2e">启德广外 HKUST TESL 案例</a></li>
+      </ul>
+      <p class="small">说明：公开机构案例具有营销筛选偏差，只能作为方向性参考；官方项目要求、学费和截止日期需在 2027 申请季递交前复核。</p>
+    </section>
+
+    <section class="section">
+      <h2>6. 可视化决策图表</h2>
+      <p>以下图表是对前文证据化分析的压缩呈现，不替代正文判断；分数为方向性评估，用于快速比较申请重心。</p>
+      <div class="chart-grid">
+        <div class="chart-card">
+          <h3>方向适配度</h3>
+          <div class="bar-row">
+            <span>港校语言/翻译</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 88%"></div></div>
+            <strong>88</strong>
+          </div>
+          <div class="bar-row">
+            <span>港校文化/传播</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 84%"></div></div>
+            <strong>84</strong>
+          </div>
+          <div class="bar-row">
+            <span>港校市场/品牌</span>
+            <div class="bar-track"><div class="bar-fill warm" style="width: 72%"></div></div>
+            <strong>72</strong>
+          </div>
+          <div class="bar-row">
+            <span>新二市场类</span>
+            <div class="bar-track"><div class="bar-fill soft" style="width: 55%"></div></div>
+            <strong>55</strong>
+          </div>
+          <div class="bar-row">
+            <span>Marketing Analytics</span>
+            <div class="bar-track"><div class="bar-fill soft" style="width: 46%"></div></div>
+            <strong>46</strong>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <h3>项目组合矩阵</h3>
+          <div class="matrix">
+            <div><strong>冲刺</strong>HKU / CUHK / HKUST 语言文化；NUS / NTU 市场相邻。前提：IELTS 7+ 与作品集。</div>
+            <div><strong>主申</strong>PolyU / CityU / HKBU 语言、传播、专业英语。案例支撑最充足。</div>
+            <div><strong>稳妥</strong>Lingnan / EdUHK / HKBU 相关方向。用于预算和风险平衡。</div>
+            <div><strong>高排名</strong>港三新二优先放 3-4 个，不宜全仓。</div>
+            <div><strong>预算</strong>新加坡市场类学费压力大；香港语言文化类更适配。</div>
+            <div><strong>就业</strong>品牌传播、国际市场、内容策略、文化传播最顺。</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <h3>推荐叙事路径</h3>
+        <div class="pathway">
+          <div>英语专业<span>语言、文本、跨文化基础</span></div>
+          <div>新华社记者<span>公共传播与新闻叙事</span></div>
+          <div>阳狮 AE<span>品牌 campaign 与客户沟通</span></div>
+          <div>元气森林 MKT<span>消费者场景与市场执行</span></div>
+          <div>研究生目标<span>语言/文化/传播/品牌策略</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

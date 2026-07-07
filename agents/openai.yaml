@@ -1,0 +1,3 @@
+display_name: Admissions Case Distiller
+short_description: Distill compliant public admissions cases into anonymous application insights.
+default_prompt: Analyze authorized student profiles and compliant public admissions cases, then generate overseas master's positioning, background-improvement, and essay-feedback advice.
