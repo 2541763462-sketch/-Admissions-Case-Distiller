@@ -1,6 +1,7 @@
 # Admissions Case Distiller
 
 一个面向留学申请咨询场景的 Codex Skill：基于**公开留学机构案例、公开机构观点、学校官方项目要求**和**用户授权背景信息**，生成境外硕士申请定位、项目组合、背景提升、文书主线和可视化 HTML 报告。
+
 <img width="1600" height="4983" alt="image" src="https://github.com/user-attachments/assets/a1d8bccd-36ce-4e8a-90b1-ba5173f9f9da" />
 
 它的目标不是复制案例库，而是把公开案例蒸馏成可追溯、匿名化、证据化的申请判断。
